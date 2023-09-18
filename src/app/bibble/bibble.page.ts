@@ -15,5 +15,10 @@ export class BibblePage implements OnInit {
   goBack(){
     this.NavCtrl.navigateBack('home');
   }
-
+  goPrevious(){
+    return;
+  }
+  goNext(){
+    return;
+  }
 }
